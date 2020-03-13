@@ -1,0 +1,23 @@
+{
+  "include": [
+    "./test/**/*.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "./*"
+      ],
+      "test/*": [
+        "./test/*"
+      ]
+    },
+    "types": [
+      "node",
+      "webdriverio",
+      "mocha"
+    ],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

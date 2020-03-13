@@ -1,0 +1,29 @@
+{
+  "name": "appgpsales-appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.ts --timeout 20000",
+    "test:seidor": "mocha -r ts-node/register test/test.seidor.ts --timeout 20000",
+    "test:tutorial": "mocha -r ts-node/register test/test.tutorial.ts --timeout 60000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.2.10",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.9.0",
+    "@types/webdriverio": "^5.0.0",
+    "@wdio/mocha-framework": "^5.18.7",
+    "@wdio/sync": "^5.20.1",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.0",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3",
+    "webdriverio": "^5.18.7"
+  }
+}
